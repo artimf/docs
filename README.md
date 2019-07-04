@@ -13,3 +13,10 @@ mkgir ".ssh"
 6. Добавьте содержимое публичного ключа из файла “id_rsa.pub”, воспользовавшись ссылкой “add public key” в разделе “SSH Public Keys”
 7. Проверьте работоспособность ключа, введя в Git Bash:
 ssh git@github.com
+# git
+Сбросить историю
+Создаем заново
+git init
+git commit...
+git remote add orogin git://github.com/paulboone/ticgit.git
+git push origin master -f
