@@ -18,5 +18,5 @@ ssh git@github.com
 Создаем заново
 git init
 git commit...
-git remote add orogin git://github.com/paulboone/ticgit.git
+git remote add origin git://github.com/paulboone/ticgit.git
 git push origin master -f
