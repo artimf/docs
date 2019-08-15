@@ -20,3 +20,17 @@ git init
 git commit...
 git remote add origin git://github.com/paulboone/ticgit.git
 git push origin master -f
+
+
+# pip wheel
+полезное
+#
+https://dizballanze.com/ru/python-wheels-dlia-bystroi-ustanovki-zavisimostei/
+pip freeze > 1.txt
+
+pip install -U pip
+pip install wheel
+mkdir wheels
+pip wheel -w wheels/ -r 1.txt --pre --allow-all-external
+
+pip install --no-index -f wheels/ -r 1.txt
