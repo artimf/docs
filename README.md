@@ -37,7 +37,7 @@ pip install --no-index -f wheels/ -r 1.txt
 
 # conda env
 conda create -n mlenv
-conda activate mlenv
+conda activate mlenv 
 conda list
 conda install jupyter
 jupyter notebook
