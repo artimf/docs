@@ -35,7 +35,7 @@ pip wheel -w wheels/ -r 1.txt --pre --allow-all-external
 
 pip install --no-index -f wheels/ -r 1.txt
 
-#conda env
+# conda env
 conda create -n mlenv
 conda activate mlenv
 conda list
